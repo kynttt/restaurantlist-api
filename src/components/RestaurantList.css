@@ -1,0 +1,42 @@
+.restaurant-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .location-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+  
+  .location-header {
+    font-size: 1.8rem;
+    color: #1877f2; /* Facebook blue color */
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-list {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+
+    &:hover {
+        
+        color: #004080;
+      
+      }
+  }
+  
+  .no-restaurants-message {
+    color: #777;
+    font-style: italic;
+  }
+  
