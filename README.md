@@ -23,6 +23,7 @@ Vercel: [https://restaurantlist-api.vercel.app/api/restaurants]
     cd restaurantlist-api
 
 3. Install dependencies:
+    ```bash
     npm install
 
 
@@ -30,6 +31,7 @@ Vercel: [https://restaurantlist-api.vercel.app/api/restaurants]
 ## Running the Server Locally
 
 1. Start the server:
+    ```bash
     npm start
 
 2. The server will run on port 5000 by default. You can access the API at: http://localhost:5000/api/restaurants
