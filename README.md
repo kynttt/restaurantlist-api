@@ -1,5 +1,5 @@
 
-(./list.png)
+![List](./list.png)
 
 # Restaurant API Server
 
